@@ -1,8 +1,23 @@
-# React + Vite
+# Workout Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This app allows users to build a workout plan by adding and organizing blocks. It supports drag-and-drop, dynamic resizing, and proportional scaling.
 
-Currently, two official plugins are available:
+## Setup
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Start the app: `npm start`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployment
+The app is deployed on [Netlify](spurfit-workout-rajesh.netlify.app).
+
+## Features
+- Drag and drop blocks.
+- Proportional scaling for distances.
+- Clear all functionality.
+
+## Tech Stack
+- ReactJS
+- Tailwind CSS
+- react-beautiful-dnd
+- re-resizable
